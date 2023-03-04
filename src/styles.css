@@ -1,0 +1,35 @@
+body {
+  color: white;
+  font-family: "Gothic A1", sans-serif;
+  font-family: "Jura", sans-serif;
+  background: radial-gradient(
+    circle at 52.1% -29.6%,
+    #611480 0%,
+    rgb(51, 0, 131) 100.2%
+  );
+}
+
+h1,
+h2 {
+  margin: 0 auto;
+  padding: 2px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 200px;
+  font-weight: bolder;
+  font-stretch: extra-expanded;
+}
+
+h2 {
+  font-size: 50px;
+  font-weight: lighter;
+  font-stretch: extra-expanded;
+  margin-bottom: 50px;
+}
+section p {
+  margin: 0 70px;
+  padding: 10px;
+  text-align: justify;
+}
