@@ -1,11 +1,12 @@
 body {
-  color: white;
+  color: rgb(14, 1, 24);
   font-family: "Gothic A1", sans-serif;
-  font-family: "Jura", sans-serif;
-  background: radial-gradient(
-    circle at 52.1% -29.6%,
-    #21489f 0%,
-    rgb(76, 25, 158) 100.2%
+  font-family: "Poppins", sans-serif;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 1) 84%,
+    rgba(161, 111, 236, 1) 110%
   );
 }
 
@@ -29,11 +30,33 @@ h2 {
   margin-bottom: 50px;
 }
 
+section {
+  margin: 15px 60px;
+}
+
+section p {
+  margin: 0 60px;
+  padding: 10px;
+  text-align: justify;
+}
+
 h3 {
   font-size: 32px;
   font-weight: 900;
   padding: 15px;
   flex-grow: 0;
+}
+
+.banner-top {
+  background-image: url(../img/bts_banner_2.jpg);
+  background-attachment: scroll;
+  background-size: 100%;
+  overflow-y: hidden;
+  height: 400px;
+  border: solid 1px white;
+  border-radius: 4px;
+  box-sizing: border-box;
+  box-shadow: inset 0px -38px 30px 22px #fff;
 }
 
 .container {
@@ -50,20 +73,5 @@ h3 {
 .divider {
   flex-grow: 1;
   height: 1px;
-  background-color: #9f9f9f;
-}
-
-section p {
-  margin: 0 70px;
-  padding: 10px;
-  text-align: justify;
-}
-.banner-top {
-  top: 0;
-  left: 0;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  height: 250px;
-  width: 100%;
+  background-color: rgb(14, 1, 24);
 }
