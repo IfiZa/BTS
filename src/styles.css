@@ -75,3 +75,14 @@ h3 {
   height: 1px;
   background-color: rgb(14, 1, 24);
 }
+
+.photo-rm,
+.photo-jin,
+.photo-suga,
+.photo-hobi,
+.photo-jimin,
+.photo-v,
+.photo-jk {
+  border-radius: 20%;
+  max-width: 95px;
+}
