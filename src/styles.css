@@ -48,22 +48,6 @@ h3 {
   flex-grow: 0;
 }
 
-ul {
-  background-color: #fff;
-  width: 155px;
-  height: 228px;
-  font-size: 11px;
-  font-weight: 500;
-  list-style-type: none;
-  text-align: center;
-  margin-top: 30px;
-  padding: 12px;
-  border: solid 1px rgba(115, 28, 153);
-  border-radius: 20%;
-  overflow-x: visible;
-  display: none;
-}
-
 footer {
   color: white;
   font-size: 14px;
@@ -109,39 +93,39 @@ footer {
   background-color: rgb(14, 1, 24);
 }
 
-.photo-rm,
-.photo-jin,
-.photo-suga,
-.photo-hobi,
-.photo-jimin,
-.photo-v,
-.photo-jk {
+.photo {
   max-width: 115px;
+  border: solid 0.5px rgba(115, 28, 153);
   border-radius: 20%;
   box-shadow: 0px 10px 20px 0px rgba(115, 28, 153, 0.3);
   transition: all ease 0.5s;
 }
 
-.photo-rm:hover,
-.photo-jin:hover,
-.photo-suga:hover,
-.photo-hobi:hover,
-.photo-jimin:hover,
-.photo-v:hover,
-.photo-jk:hover {
+.photo:hover {
   transform: translateY(-10px);
   box-shadow: 0px 20px 40px 0px rgba(115, 28, 153, 0.35);
 }
 
-.photo-rm:hover + .profile-rm,
-.photo-jin:hover + .profile-jin,
-.photo-suga:hover + .profile-suga,
-.photo-hobi:hover + .profile-hobi,
-.photo-jimin:hover + .profile-jimin,
-.photo-v:hover + .profile-v,
-.photo-jk:hover + .profile-jk {
-  display: block;
+.profile {
+  background-color: #fff;
+  font-size: 11px;
+  font-weight: 500;
+  list-style-type: none;
+  text-align: center;
+  margin-top: 30px;
+  padding: 12px;
+  width: 165px;
+  height: 240px;
+  border: solid 1px rgba(115, 28, 153);
+  border-radius: 20%;
+  box-shadow: 0px 10px 20px 0px rgba(115, 28, 153, 0.3);
   transition: all ease 0.5s;
+  overflow-x: visible;
+  display: none;
+}
+
+.photo:hover + .profile {
+  display: block;
   transform: translateY(-10px);
   box-shadow: 0px 20px 40px 0px rgba(115, 28, 153, 0.35);
 }
