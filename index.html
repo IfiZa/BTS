@@ -19,6 +19,11 @@
       crossorigin="anonymous"
     />
 
+    <script
+      src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js"
+      async
+    ></script>
+
     <link rel="stylesheet" href="src/styles.css" type="text/css" />
 
     <title>BTS 보라해</title>
@@ -36,17 +41,91 @@
           <span class="divider"></span>
         </div>
 
-        <p>
-          <strong>BTS</strong> (Korean: 방탄소년단; Romanization: Bangtan
-          Sonyeondan; lit. Bulletproof Boy Scouts), is a South Korean boy band
-          of 7 members consisting of <strong>RM</strong>, <strong>Jin</strong>,
-          <strong>Suga</strong>, <strong>J-Hope</strong>,
-          <strong>Jimin</strong>, <strong>V</strong> and
-          <strong>Jungkook</strong>. They debuted on
-          <strong>June 13, 2013</strong> under Big Hit Music (currently part of
-          HYBE Labels) with the lead single 'No More Dream' on album '2 Cool 4
-          Skool'.
-        </p>
+        <div class="intro-cards text-center">
+          <div class="row" data-masonry='{"percentPosition": true }'>
+            <div class="col-4 p-2">
+              <div class="card p-2">
+                <div class="card-body">
+                  <h4 class="card-title">What BTS stands for?</h4>
+                  <p class="card-text p-2 mx-2 mt-3">
+                    <strong>BTS</strong> (Korean: 방탄소년단; Romanization:
+                    Bangtan Sonyeondan; lit. Bulletproof Boy Scouts), is a South
+                    Korean boy band of 7 members consisting of
+                    <strong>RM</strong>, <strong>Jin</strong>,
+                    <strong>Suga</strong>, <strong>J-Hope</strong>,
+                    <strong>Jimin</strong>, <strong>V</strong> and
+                    <strong>Jungkook</strong> (in the order they joined the
+                    group).
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-4 p-2">
+              <div class="card p-2">
+                <div class="card-body">
+                  <h4 class="card-title">When did they debut?</h4>
+                  <p class="card-text p-2 mx-2 mt-3">
+                    They debuted on <strong>June 13, 2013</strong> under Big Hit
+                    Music (currently part of HYBE Labels) with the lead single
+                    'No More Dream' from the album '2 Cool 4 Skool'.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-4 p-2">
+              <div class="card p-2">
+                <div class="card-body">
+                  <h4 class="card-title">What is their musical style?</h4>
+                  <p class="card-text p-2 mx-2 mt-3">
+                    With supporting some more text below as a natural lead-in to
+                    additional content.
+                  </p>
+                  <a href="#" class="btn btn-outline-secondary">Outline</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-4 py-3">
+              <div class="card border-primary">
+                <div class="card-body">
+                  <h3 class="card-title">Card</h3>
+                  <p class="card-text">lead-in to additional content.</p>
+                  <a href="#" class="btn btn-outline-secondary">Outline</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-4 py-3">
+              <div class="card border-primary">
+                <div class="card-body">
+                  <h3 class="card-title">Card</h3>
+                  <p class="card-text">
+                    With supporting text below as a natural lead-in to
+                    additional content and more spporting text below ...
+                    content. additional content.
+                  </p>
+                  <a href="#" class="btn btn-outline-secondary">Outline</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-4 py-3">
+              <div class="card border-primary">
+                <div class="card-body">
+                  <h3 class="card-title">Card</h3>
+                  <p class="card-text">With more more more supporting text.</p>
+                  <a href="#" class="btn btn-outline-secondary">Outline</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-4 py-3">
+              <div class="card border-primary">
+                <div class="card-body">
+                  <h3 class="card-title">Card</h3>
+                  <p class="card-text">With supporting text.</p>
+                  <a href="#" class="btn btn-outline-secondary">Outline</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
 
         <p>
           Their musical style incorporates a wide range of genres (pop, hip-hop,
@@ -79,7 +158,7 @@
           <span class="divider"></span>
         </div>
 
-        <div class="row cols-sm-1 cols-md-7 m-3 gx-2">
+        <div class="row row-cols-7 p-3 g-2">
           <div class="col text-center">
             <img
               src="./img/rm.jpg"
