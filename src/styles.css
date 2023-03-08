@@ -1,8 +1,7 @@
 body {
   color: rgb(14, 1, 24);
   cursor: url(../img/cursor.svg), pointer;
-  font-family: "Gothic A1", sans-serif;
-  font-family: "Poppins", sans-serif;
+  font-family: "Open Sans", sans-serif;
   background: rgb(255, 255, 255);
   background: linear-gradient(
     180deg,
@@ -130,12 +129,16 @@ footer {
   box-shadow: 0px 20px 40px 0px rgba(115, 28, 153, 0.35);
 }
 
-.bighit,
-.weverse,
-.youtube,
-.spotify,
-.twitter,
-.tiktok,
-.facebook {
+.poll {
+  margin: 20px auto;
+  width: 85%;
+}
+
+.connect-icon {
   width: 50px;
+}
+
+.connect-icon:hover {
+  transform: translateY(-10px);
+  box-shadow: 0px 20px 40px 0px rgba(232, 222, 238, 0.938);
 }
