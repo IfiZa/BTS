@@ -89,6 +89,7 @@ footer {
   padding: 20px;
   width: 85%;
 }
+
 .intro-title,
 .profiles-title,
 .voting-bias,
@@ -97,6 +98,11 @@ footer {
   flex-direction: row;
   align-items: center;
 }
+
+.connect-with-bts {
+  margin-bottom: 20px;
+}
+
 .divider {
   flex-grow: 1;
   height: 1px;
@@ -110,8 +116,10 @@ footer {
 .photo-jimin,
 .photo-v,
 .photo-jk {
-  border-radius: 20%;
   max-width: 115px;
+  border-radius: 20%;
+  box-shadow: 0px 10px 20px 0px rgba(115, 28, 153, 0.3);
+  transition: all ease 0.5s;
 }
 
 .photo-rm:hover,
@@ -121,7 +129,8 @@ footer {
 .photo-jimin:hover,
 .photo-v:hover,
 .photo-jk:hover {
-  box-shadow: 2px 2px 7px rgba(115, 28, 153, 1);
+  transform: translateY(-10px);
+  box-shadow: 0px 20px 40px 0px rgba(115, 28, 153, 0.35);
 }
 
 .photo-rm:hover + .profile-rm,
@@ -132,4 +141,17 @@ footer {
 .photo-v:hover + .profile-v,
 .photo-jk:hover + .profile-jk {
   display: block;
+  transition: all ease 0.5s;
+  transform: translateY(-10px);
+  box-shadow: 0px 20px 40px 0px rgba(115, 28, 153, 0.35);
+}
+
+.bighit,
+.weverse,
+.youtube,
+.spotify,
+.twitter,
+.tiktok,
+.facebook {
+  width: 50px;
 }
