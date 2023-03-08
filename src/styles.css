@@ -68,11 +68,13 @@ footer {
   color: white;
   font-size: 14px;
   text-align: center;
+  margin: 30px auto 15px;
 }
 
 .banner-top {
   background-image: url(../img/bts_banner_2.jpg);
   background-attachment: scroll;
+  background-position: no-repeat;
   background-size: 100%;
   overflow-y: hidden;
   height: 400px;
