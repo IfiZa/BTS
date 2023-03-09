@@ -5,7 +5,7 @@ body {
     rgba(255, 255, 255, 1) 84%,
     rgb(115, 28, 153) 110%
   );
-  color: rgb(14, 1, 24);
+  color: #0e0118;
   cursor: url(../img/cursor.svg), pointer;
   font-family: "Open Sans", sans-serif;
 }
@@ -35,13 +35,13 @@ h3 {
 }
 
 h4 {
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 900;
 }
 
 section p,
 blockquote {
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 400;
 }
 
@@ -79,6 +79,12 @@ footer {
   align-items: center;
 }
 
+.divider {
+  flex-grow: 1;
+  height: 1px;
+  background-color: rgb(14, 1, 24);
+}
+
 .intro-cards {
   margin: 15px;
 }
@@ -95,14 +101,13 @@ footer {
   box-shadow: 0px 20px 40px 0px rgba(115, 28, 153, 0.35);
 }
 
-.connect {
-  margin-bottom: 20px;
+.magazine-link {
+  color: #0e0118;
 }
 
-.divider {
-  flex-grow: 1;
-  height: 1px;
-  background-color: rgb(14, 1, 24);
+.magazine-link:hover {
+  color: #0e0118;
+  text-shadow: 1px 1px rgba(115, 28, 153, 0.3);
 }
 
 .photo {
@@ -145,6 +150,10 @@ footer {
 .poll {
   margin: 20px auto;
   width: 80%;
+}
+
+.connect {
+  margin-bottom: 20px;
 }
 
 .connect-icon {
