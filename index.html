@@ -2,53 +2,54 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500;700&display=swap"
-      rel="stylesheet"
-    />
-
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="author" content="IfiZamb" />
+    <title>BTS 보라해</title>
+    <!-- Bootstrap -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
       crossorigin="anonymous"
     />
-
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Masonry  -->
     <script
       src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js"
       async
     ></script>
-
     <link rel="stylesheet" href="src/styles.css" type="text/css" />
-
-    <title>BTS 보라해</title>
   </head>
+
   <body>
-    <header>
-      <div class="banner-top"></div>
-      <h1>BTS</h1>
-      <h2>방탄소년단</h2>
-    </header>
+    <div class="banner-top"></div>
+
     <div class="container">
+      <header>
+        <h1>BTS</h1>
+        <h2>방탄소년단</h2>
+      </header>
+
       <section class="intro">
         <div class="intro-title">
           <h3>intro</h3>
           <span class="divider"></span>
         </div>
-
-        <div class="intro-cards text-center">
-          <div class="row" data-masonry='{"percentPosition": true }'>
-            <div class="col-4 p-2">
-              <div class="card p-2">
-                <div class="card-body">
-                  <h4 class="card-title">Their name...</h4>
-                  <p class="card-text p-2 mx-2 mt-3">
-                    <strong>BTS</strong> (Korean: 방탄소년단; Romanization:
+        <div class="intro-cards">
+          <div class="row mb-5" data-masonry='{"percentPosition": true }'>
+            <div class="col-4">
+              <div class="card">
+                <div class="card-body m-3">
+                  <h4 class="card-title mb-3">The group...</h4>
+                  <p class="card-text m-0">
+                    <strong>BTS</strong> (Korean: 방탄소년단; romanization:
                     Bangtan Sonyeondan; lit. Bulletproof Boy Scouts), is a South
                     Korean boy band consisting of 7 members, namely:
                     <strong>RM</strong>, <strong>Jin</strong>,
@@ -59,58 +60,50 @@
                   </p>
                 </div>
               </div>
+
+              <div class="card mt-4">
+                <div class="card-body m-3">
+                  <h4 class="card-title mb-3">Their fanbase...</h4>
+                  <p class="card-text m-0">
+                    BTS is supported since its beginning by a hugely loyal,
+                    dedicated, proud and active community, known as
+                    <strong>A R M Y</strong> (Adorable Representative M.C. for
+                    Youth.)
+                    <figure>
+                      <blockquote class="blockquote mt-3">
+                        <p>
+                          <em
+                            >"ARMY stands apart from other fandoms through the
+                            ways it has mobilsed with an unrivaled level of
+                            organization..."</em
+                          >
+                        </p>
+                      </blockquote>
+                      <figcaption class="blockquote-footer mt-2">
+                        Time magazine, Nov 2020
+                      </figcaption>
+                    </figure>
+                  </p>
+                </div>
+              </div>
             </div>
-            <div class="col-4 p-2">
-              <div class="card p-2">
-                <div class="card-body">
-                  <h4 class="card-title">Their debut...</h4>
-                  <p class="card-text p-2 mx-2 mt-3">
+
+            <div class="col-4">
+              <div class="card">
+                <div class="card-body m-3">
+                  <h4 class="card-title mb-3">The debut...</h4>
+                  <p class="card-text m-0">
                     They debuted on <strong>June 13, 2013</strong> under Big Hit
                     Music (currently part of HYBE Labels) with the lead single
                     'No More Dream' from the album '2 Cool 4 Skool'.
                   </p>
                 </div>
               </div>
-            </div>
-            <div class="col-4 p-2">
-              <div class="card p-2">
-                <div class="card-body">
-                  <h4 class="card-title">Their music and lyrics...</h4>
-                  <p class="card-text p-2 mx-2 mt-3">
-                    Their musical style incorporates a wide range of genres pop,
-                    hip-hop, R&B, dance/electronic, latin pop, urban neosoul and
-                    many more, and their lyrics focus on social issues, mental
-                    health and the youth. They co-produce and co-write most of
-                    their songs.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="col-4 p-2">
-              <div class="card p-2">
-                <div class="card-body">
-                  <h4 class="card-title">Their fanbase...</h4>
-                  <p class="card-text p-2 mx-2 mt-3">
-                    BTS is supported since its beginning by a hugely loyal,
-                    dedicated, proud and active community, known as
-                    <strong>A R M Y</strong> (Adorable Representative M.C. for
-                    Youth.) <br />
-                    <em
-                      >"ARMY stands apart from other fandoms through the ways it
-                      has mobilsed with an unrivaled level of
-                      organization..."</em
-                    >
-                    <br />
-                    - Time magazine, Nov 2020
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="col-4 p-2">
-              <div class="card p-2">
-                <div class="card-body">
-                  <h4 class="card-title">Their accolades...</h4>
-                  <p class="card-text p-2 mx-2 mt-3">
+
+              <div class="card mt-4">
+                <div class="card-body m-3">
+                  <h4 class="card-title mb-3">Their accolades...</h4>
+                  <p class="card-text m-0">
                     Almost 10 years since their debut, the group has uncountable
                     accolades from repeated number-one songs in charts around
                     the world, to concequent sold-out concerts, numerous awards
@@ -120,17 +113,60 @@
                 </div>
               </div>
             </div>
-            <div class="col-4 p-2">
-              <div class="card p-2">
-                <div class="card-body">
-                  <h4 class="card-title">In 2023...</h4>
-                  <p class="card-text p-2 mx-2 mt-3">
-                    They are currently on pause of their group activities and
-                    focusing on their individual projects, while Jin has already
-                    enlisted for the mandatory South Korean military service,
-                    and J-Hope will be the next one to follow shortly. Their
-                    much waited reunion is foreseen for 2025, and, we, ARMY,
-                    can't wait!!!
+
+            <div class="col-4">
+              <div class="card">
+                <div class="card-body m-3">
+                  <h4 class="card-title mb-3">Their music and lyrics...</h4>
+                  <p class="card-text m-0">
+                    Their musical style incorporates a wide range of genres like
+                    pop, hip-hop, R&B, dance/electronic, latin pop, urban
+                    neosoul and many more, and their lyrics focus on social
+                    issues, mental health and the youth. They co-produce and
+                    co-write most of their songs.
+                  </p>
+                </div>
+              </div>
+
+              <div class="card mt-4">
+                <div class="card-body m-3">
+                  <h4 class="card-title mb-3">In 2023...</h4>
+                  <p class="card-text m-0">
+                    They are currently on a pause from their group activities
+                    and focusing on their individual projects, while Jin has
+                    already enlisted for the mandatory South Korean military
+                    service, and J-Hope will be the next one to follow shortly.
+                    Their much waited reunion is foreseen for 2025, and, we,
+                    ARMY, can't wait!!!
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-4">
+              <div class="card">
+                <div class="card-body m-3">
+                  <h4 class="card-title mb-3">Their music and lyrics...</h4>
+                  <p class="card-text m-0">
+                    Their musical style incorporates a wide range of genres like
+                    pop, hip-hop, R&B, dance/electronic, latin pop, urban
+                    neosoul and many more, and their lyrics focus on social
+                    issues, mental health and the youth. They co-produce and
+                    co-write most of their songs.
+                  </p>
+                </div>
+              </div>
+
+              <div class="card mt-4">
+                <div class="card-body m-3">
+                  <h4 class="card-title mb-3">In 2023...</h4>
+                  <p class="card-text m-0">
+                    They are currently on a pause from their group activities
+                    and focusing on their individual projects, while Jin has
+                    already enlisted for the mandatory South Korean military
+                    service, and J-Hope will be the next one to follow shortly.
+                    Their much waited reunion is foreseen for 2025, and, we,
+                    ARMY, can't wait!!!
                   </p>
                 </div>
               </div>
@@ -461,7 +497,7 @@
           <h3>connect with BTS</h3>
           <span class="divider"></span>
         </div>
-        <div class="row cols-sm-7 g-3 text-center">
+        <div class="row row-cols-7 g-3 text-center">
           <div class="col">
             <a href="https://ibighit.com/bts/kor/" target="_blank">
               <img

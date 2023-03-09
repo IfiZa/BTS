@@ -1,43 +1,30 @@
 body {
-  color: rgb(14, 1, 24);
-  cursor: url(../img/cursor.svg), pointer;
-  font-family: "Open Sans", sans-serif;
   background: rgb(255, 255, 255);
   background: linear-gradient(
     180deg,
     rgba(255, 255, 255, 1) 84%,
     rgb(115, 28, 153) 110%
   );
+  color: rgb(14, 1, 24);
+  cursor: url(../img/cursor.svg), pointer;
+  font-family: "Open Sans", sans-serif;
 }
 
 h1,
 h2 {
-  margin: 0 auto;
   padding: 2px;
   text-align: center;
 }
 
 h1 {
-  font-size: 200px;
+  font-size: 180px;
   font-weight: bolder;
-  font-stretch: extra-expanded;
 }
 
 h2 {
   font-size: 50px;
   font-weight: lighter;
-  font-stretch: extra-expanded;
   margin-bottom: 50px;
-}
-
-section {
-  margin: 15px 60px;
-}
-
-section p {
-  margin: 0 60px;
-  padding: 10px;
-  text-align: justify;
 }
 
 h3 {
@@ -46,9 +33,17 @@ h3 {
   padding: 15px;
   flex-grow: 0;
 }
+
 h4 {
   font-size: 22px;
   font-weight: 900;
+}
+
+section p,
+blockquote,
+figcaption {
+  font-size: 16px;
+  font-weight: 400;
 }
 
 footer {
@@ -60,8 +55,7 @@ footer {
 
 .banner-top {
   background-image: url(../img/bts_banner_2.jpg);
-  background-attachment: scroll;
-  background-position: no-repeat;
+  background-repeat: no-repeat;
   background-size: 100%;
   overflow-y: hidden;
   height: 400px;
@@ -73,8 +67,9 @@ footer {
 
 .container {
   margin: 0 auto;
-  padding: 20px;
-  width: 85%;
+  padding: 50px;
+  width: 80%;
+  border: solid 2px red;
 }
 
 .intro-title,
