@@ -68,7 +68,6 @@ footer {
   margin: 0 auto;
   padding: 50px;
   width: 80%;
-  border: solid 2px red;
 }
 
 .intro-title,
@@ -145,7 +144,7 @@ footer {
 
 .poll {
   margin: 20px auto;
-  width: 85%;
+  width: 80%;
 }
 
 .connect-icon {
