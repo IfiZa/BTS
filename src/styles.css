@@ -58,15 +58,14 @@ footer {
   background-repeat: no-repeat;
   background-size: 90%;
   background-position-x: center;
-  height: 400px;
-  border: solid 1px white;
+  height: 390px;
   border-radius: 4px;
   box-sizing: border-box;
-  box-shadow: inset 0px -38px 30px 22px #fff;
+  box-shadow: inset 0px -80px 30px 22px #fff;
 }
 .container {
   width: 80%;
-  padding: 40px;
+  padding: 0 40px 40px 40px;
   margin: 0 auto;
 }
 
