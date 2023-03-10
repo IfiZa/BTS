@@ -22,12 +22,3 @@
   opacity: 1;
   transform: translateY(-10px);
 }
-
-.poll {
-  margin: 20px auto;
-  width: 70%;
-}
-
-.connect {
-  margin-bottom: 20px;
-}
