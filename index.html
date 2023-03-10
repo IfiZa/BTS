@@ -26,6 +26,145 @@
       async
     ></script>
     <link rel="stylesheet" href="src/styles.css" type="text/css" />
+    <style>
+      body {
+        background: rgb(255, 255, 255);
+        background: linear-gradient(
+          180deg,
+          rgba(255, 255, 255, 1) 84%,
+          rgb(115, 28, 153) 110%
+        );
+        color: #0e0118;
+        cursor: url(./img/cursor.svg), pointer;
+        font-family: "Open Sans", sans-serif;
+      }
+      h1 {
+        text-align: center;
+        font-size: 180px;
+        font-weight: bolder;
+      }
+
+      h2 {
+        text-align: center;
+        font-size: 50px;
+        font-weight: lighter;
+        margin-bottom: 50px;
+      }
+      h3 {
+        font-size: 32px;
+        font-weight: 900;
+        padding: 15px;
+        flex-grow: 0;
+      }
+
+      h4 {
+        font-size: 18px;
+        font-weight: 900;
+      }
+
+      section p,
+      blockquote,
+      figcaption {
+        font-size: 14px;
+        font-weight: 400;
+      }
+
+      footer {
+        color: white;
+        font-size: 14px;
+        font-weight: lighter;
+        text-align: center;
+        margin: 30px auto 15px;
+      }
+      .banner-top {
+        background-image: url(./img/bts_banner.jpg);
+        background-repeat: no-repeat;
+        background-size: 90%;
+        background-position-x: center;
+        height: 390px;
+        border-radius: 4px;
+        box-sizing: border-box;
+        box-shadow: inset 0px -80px 30px 22px #fff;
+        margin: 0 auto;
+      }
+      .container {
+        width: 80%;
+        padding: 0 40px 40px 40px;
+        margin: 0 auto;
+      }
+
+      .intro-title,
+      .members-title,
+      .voting-title,
+      .connect-title {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+      }
+
+      .divider {
+        flex-grow: 1;
+        height: 1px;
+        background-color: rgb(14, 1, 24);
+      }
+      .intro-cards {
+        margin: 15px;
+        padding: 20px;
+      }
+
+      .card {
+        border: solid 0.5px rgba(115, 28, 153);
+        border-radius: 20%;
+        box-shadow: 0px 10px 20px 0px rgba(115, 28, 153, 0.3);
+        transition: all ease 0.5s;
+      }
+
+      .card:hover {
+        transform: translateY(-10px);
+        box-shadow: 0px 20px 40px 0px rgba(115, 28, 153, 0.35);
+      }
+
+      .magazine-link {
+        color: #0e0118;
+        text-decoration: none;
+      }
+      .magazine-link:hover {
+        color: #0e0118;
+        text-decoration: underline;
+        text-shadow: 1px 1px rgba(115, 28, 153, 0.3);
+      }
+      .photo {
+        max-width: 115px;
+        border: solid 0.5px rgba(115, 28, 153);
+        border-radius: 20%;
+        box-shadow: 0px 10px 20px 0px rgba(115, 28, 153, 0.3);
+        transition: all ease 0.5s;
+      }
+
+      .photo:hover {
+        transform: translateY(-10px);
+        box-shadow: 0px 20px 40px 0px rgba(115, 28, 153, 0.35);
+      }
+      .connect-icon {
+        width: 50px;
+        border-radius: 5px;
+        border: solid 0.5px #d1a6d7;
+        box-shadow: 2px 2px 5px 2px #e2b9e7;
+      }
+
+      .connect-icon:hover {
+        transform: translateY(2px);
+        border: solid 0.5px #d1a6d7;
+        box-shadow: 0px 20px 40px 0px rgba(232, 222, 238, 1);
+      }
+      .hosting-link {
+        color: white;
+      }
+
+      .hosting-link:hover {
+        color: #0e0118;
+      }
+    </style>
   </head>
 
   <body>
@@ -252,7 +391,7 @@
           <span class="divider"></span>
         </div>
 
-        <div class="row row-cols-7 p-3 g-2">
+        <div class="row row-cols-7 p-3 g-2 mt-2 mb-4">
           <div class="col text-center">
             <img
               src="./img/rm.jpg"
