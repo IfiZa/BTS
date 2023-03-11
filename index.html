@@ -154,6 +154,51 @@
         box-shadow: 0px 20px 40px 0px rgba(115, 28, 153, 0.35);
       }
 
+      .profile {
+        background-color: #fff;
+        font-size: 11px;
+        font-weight: 500;
+        list-style-type: none;
+        text-align: center;
+        margin-top: 30px;
+        padding: 12px;
+        width: 165px;
+        height: 240px;
+        border: solid 1px rgba(115, 28, 153);
+        border-radius: 20%;
+        box-shadow: 0px 10px 20px 0px rgba(115, 28, 153, 0.3);
+        overflow-x: visible;
+        display: none;
+      }
+
+      .photo:hover + .profile {
+        display: block;
+        animation: fade-in 1s;
+      }
+
+      .photo:not(:hover) .profile.did-fade-in {
+        display: block;
+        animation: fade-out 1s;
+      }
+
+      @keyframes fade-in {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+
+      @keyframes fade-out {
+        from {
+          opacity: 1;
+        }
+        to {
+          opacity: 0;
+        }
+      }
+
       .poll {
         margin: 30px auto;
         width: 70%;
@@ -815,5 +860,18 @@
         >Netlify</a
       >
     </footer>
+    <script>
+      document.addEventListener("animationstart", function (e) {
+        if (e.animationName === "fade-in") {
+          e.target.classList.add("did-fade-in");
+        }
+      });
+
+      document.addEventListener("animationend", function (e) {
+        if (e.animationName === "fade-out") {
+          e.target.classList.remove("did-fade-in");
+        }
+      });
+    </script>
   </body>
 </html>
